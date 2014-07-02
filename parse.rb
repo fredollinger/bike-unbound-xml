@@ -12,17 +12,9 @@ arr = Array.new
 channel.each_element_with_text() {|e| 
     # p e.name
     e.each_element_with_text() {|e| 
-        # p e.name
+        #p e.name
         if "category" == e.name then
-	    p e.name
-	    e.each_element_with_text() {|e| 
-    		if "category_nicename" == e.name then
-			p e.name
-			p e.text
-			arr.push(e.text)
-			arr=arr.uniq
-		end
-     	    }
+	    p e.class
     	end
     } # e.each_element_with_text() {|e| 
 } # channel.each_element_with_text() {|e| 
