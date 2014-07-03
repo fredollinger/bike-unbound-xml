@@ -10,13 +10,11 @@ channel=doc.root.elements[1]
 #doc.root.elements.each("channel/item/wp:category") {|e| p e}
 arr = Array.new
 channel.each_element_with_text() {|e| 
-    # p e.name
+    p e.name
     e.each_element_with_text() {|e| 
-        #p e.name
-        if "category" == e.name then
-	    p e.class
-    	end
+	att=e.attribute("nicename")
+	p att.class
     } # e.each_element_with_text() {|e| 
 } # channel.each_element_with_text() {|e| 
 
-p arr
+#p arr
