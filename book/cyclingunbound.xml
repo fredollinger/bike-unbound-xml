@@ -2,6 +2,7 @@
 <!DOCTYPE book [
 <!ENTITY preface SYSTEM "chaps/preface.xml">
 <!ENTITY rules_of_engagement SYSTEM "chaps/rules_of_engagement.xml">
+<!ENTITY infrastructure SYSTEM "chaps/infrastructure.xml">
 <!ENTITY helmets SYSTEM "chaps/helmets.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" version="5.0">
@@ -11,6 +12,7 @@
 
 &preface;
 &rules_of_engagement;
+&infrastructure;
 &helmets;
 
 </book>
