@@ -1,77 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-  "/usr/share/xml/docbook/schema/dtd/4.5/docbookx.dtd">
-<book>
+<!DOCTYPE book [
+<!ENTITY preface SYSTEM "chaps/preface.xml">
+<!ENTITY rules_of_engagement SYSTEM "chaps/rules_of_engagement.xml">
+<!ENTITY helmets SYSTEM "chaps/helmets.xml">
+]>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0">
 <bookinfo>
 <title>Cycling Unbound: Bleeding Edge Cycling</title>
 </bookinfo>
 
-<preface>
-<title>Preface</title>
-<para>
-The first draft of this book was written on my blog:
-<ulink url="http://cyclingunbound.wordpress.com">
-Cycling Unbound</ulink> which was written between 2009 and 2014.
-</para>
-<para>
-<para>
-Part statistical analysis, part cheerleader, part spiritual seeker, and part comedian, the blog has had limited appeal, but for me it was a place for me to dump my ideas which I usually got while riding to work each day. Through the years, I was able to work through my own personal issues as well as my ideas on where cycling in the United States should be headed.
-</para>
-<para>
-I never expected a big readership; I merely enjoyed blogging for its own enjoyment.
-</para>
-Recently, in mid-2014, I spoke to visitor advocates who were shocked to hear a recent report that forty percent of cycling deaths in the United States were hit from behind collisions. 
-</para>
-<para>
-Since, due to research, I had known about this for years, I was not surprised to see this result. Until I spoke to the visitor, I had not known that these statistics were common knowledge. This got me wondering. What other "common sense" truths which I learned through reading pdfs online, basic statistical analysis, and brainstorming, were unknown to the wider cycling world?
-</para>
-<para>
-Thus, the main motivation of this book is to get whatever knowledge I learned out there for the wider cycling community in the hopes that it save someone some time. My other goal was to overhaul my blog which is dated in some parts, angry in others, and an embarassement in most ways.
-</para>
-</preface>
-
-<chapter id='rules_of_engagement'>
-<title>Rules of Engagement</title>
-<para>
-This book was written by a science major who believes that the scientific method is the best way for making decisions in the public sphere such as the role that cycling is going to play in a modern transporation system.
-</para>
-<para>
-Additionally, I write this as a human meditator who strives to increase the world net happiness. Thus, one's feeling should also be taken into account. 
-</para>
-<para>
-Thus, I seek to marry both styles. To make decisions based on research, but the basis of decisions is what makes the world, ultimately, a happier and healthier place.
-</para>
-</chapter>
-
-<chapter>
-<title>Helmets</title>
-<para>
-DRAFT: THIS IS NOT GOING TO BE THE FIRST CHAPTER.
-</para>
-<para>
-One of the biggest debates in the cycling world is over cycling helmets. Many people think tha they are the "single best way to protect one from a head injury." Others believe that helmets are over-rated at best and at worse, a hinderance to getting more people riding bicycles.
-</para>
-<para>
-As per the <link linkend='rules_of_engagement'>Rule of Engagement Chapter</link>, the main causes of making decisions is based on data, reason, and emotions. 
-</para>
-<para>
-First let's talk about the emotional reason that we wear helmets. The main reason is to make cycling safer. There should be no other reason.
-</para>
-<para>
-Anything that makes the public safer is a public safety intervention which comes under the Center for Disease control. Safety devices, like medicine should be proven with science. No one would take an unproven safety intervention seriously without the science to back it up.
-</para>
-<sect1>
-<title>Safety Studies of Helmets</title>
-<para>This chapter is going to be shorter than it could be. There are many debates, online, about the relative safety of helmets. I'm going to stick to some of the most compelling arguments.
-</para>
-<para>
-First, let's talk about the argument from a vaccum. This is basically saying statments such as "you never know" in order push for helmets. I'd argue that "you never know" is a statement of ignorance. If we don't know if helmets are useful then like other useless safety interventions, they are not to be recommended. We only have limited time and money and to make things safer, we need to spend wisely.
-</para>
-<sect2>
-<title>First Helmet Paper Analysis</title>
-<para>FIRST PAPER ANAL HERE.</para>
-</sect2>
-</sect1>
-</chapter>
+&preface;
+&rules_of_engagement;
+&helmets;
 
 </book>
