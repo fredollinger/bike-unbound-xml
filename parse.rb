@@ -14,6 +14,7 @@ doc = REXML::Document.new file
 channel=doc.root.elements[1]
 arr = Array.new
 dir="cyclingunbound/uncategorized"
+`mkdir -p #{dir}`
 cdata=""
 title=""
 channel.each_element_with_text() {|e| 
