@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE book [
 <!ENTITY preface SYSTEM "chaps/preface.xml">
+<!ENTITY benefits SYSTEM "chaps/benefits.xml">
 <!ENTITY rules_of_engagement SYSTEM "chaps/rules_of_engagement.xml">
 <!ENTITY infrastructure SYSTEM "chaps/infrastructure.xml">
 <!ENTITY helmets SYSTEM "chaps/helmets.xml">
